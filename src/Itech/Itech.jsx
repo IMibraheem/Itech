@@ -5,6 +5,7 @@ import HeroSec from '../Layout/HeroSec'
 import SecOne from '../Layout/SecOne'
 import SecTwo from '../Layout/SecTwo'
 import SecThree from '../Layout/SecThree'
+import SecFour from '../Layout/sECfOUR.JSX'
 
 const Itech = () => {
   return (
@@ -15,6 +16,7 @@ const Itech = () => {
     <SecOne/>
     <SecTwo/>
     <SecThree/>
+    <SecFour/>
     </>
   )
 }

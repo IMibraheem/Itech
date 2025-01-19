@@ -34,7 +34,7 @@ const SecThree = () => {
           </h1>
           <h4 className="text-gray-500 text-xl lg:pr-24  lg:pt-4 leading-8 lg:leading-9">Automatically syncs across all your devices. You can also access and write notes without internet connection.</h4>
 
-          <div className="flex flex-col gap-6 w-[100%]">
+          <div className="flex flex-col gap-6 w-full xl:w-[90%]">
             
       <div className='w-full bg-[#e9e5f8] p-5 rounded-xl flex flex-col gap-5'>
         <div className='flex justify-between w-full'>
