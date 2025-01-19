@@ -12,7 +12,7 @@ const Header = () => {
         
     }
   return (
-    <section className='relative z-10 bg-white rounded-2xl -top-2 lg:px-10 px-7 xl:px-16 py-4'>
+    <section className='relative w-full z-10 bg-white rounded-2xl -top-2 lg:px-10 px-7 xl:px-16 py-4'>
         <header className='flex justify-between items-center'>
             <div className='flex justify-center items-center'>
                 <img src="../img/logo.png" alt=""  className='w-[110px] md:w-auto'/>
