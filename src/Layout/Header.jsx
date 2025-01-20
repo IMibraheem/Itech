@@ -29,7 +29,7 @@ const Header = () => {
             </nav>
            
             <div>
-            <i class="fa-solid fa-bars cursor-pointer text-2xl lg:hidden " onClick={handleNav}></i>
+            <i className="fa-solid fa-bars cursor-pointer text-2xl lg:hidden " onClick={handleNav}></i>
             </div>
             <div className='  items-center justify-center gap-3 hidden md:flex'>
                 <img src="../img/profile.png" alt="" className='border border-black p-1 rounded-full'/>
