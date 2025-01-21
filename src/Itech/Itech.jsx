@@ -10,6 +10,7 @@ import SecFive from '../Layout/SecFive'
 import SecSix from '../Layout/SecSix'
 import SecSeven from '../Layout/SecSeven'
 import SecEight from '../Layout/SecEight'
+import Footer from '../Layout/Footer'
 
 const Itech = () => {
   return (
@@ -25,6 +26,7 @@ const Itech = () => {
     <SecSix/>
     <SecSeven/>
     <SecEight/>
+    <Footer/>
     </>
   )
 }
