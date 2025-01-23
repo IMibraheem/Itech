@@ -23,46 +23,47 @@ const SecOne = () => {
         {/*Second Row   */}
         <div className='relative z-30 font-semibold flex flex-col justify-center items-center gap-10 pt-16 sm:bg-[#f9f4f4] overflow-hidden '>
 
-        <button className='bg-[#ffffff] text-[#6953D3] p-2 text-lg rounded-lg'>Notero-Easy Note App</button>
+        <button className='bg-[#ffffff] text-[#6953D3] p-2 text-lg rounded-lg font-medium'>Notero-Easy Note App</button>
         <h1 className='text-5xl font-bold text-gray-800 text-center'>
         Awesome <span className='bg-gradient-to-r from-[#7259dd] to-[#f98085] text-transparent bg-clip-text'> Features </span>
         </h1>
 
         {/*  imgs and text  inside second Row */}
-        <div className='grid place-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 w-full lg:h-[270px]  lg:pt-20 h-auto relative gap-5'>
+        <div className='grid place-items-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 w-full lg:h-[320px]  lg:pt-20 h-auto relative gap-5 '>
             <div className='flex flex-col gap-7 z-40  md:w-32'>
                 <img src="../img/Sec1/Ellipse 15.png" alt=""  className=''/>
-                <h2 className='font-bold w-40  text-xl'>Notes Powerful
+                <h2 className='font-boldw-40 text-base text-center'>Notes Powerful
                 and Security</h2>
             </div>
 
             <div className='flex flex-col gap-7 z-40  md:w-32'>
                 <img src="../img/Sec1/Ellipse 16.png" alt="" />
-                <h2 className='font-bold w-40 text-xl'>Notes Powerful
-                and Security</h2>
+                <h2 className='font-bold w-40 text-base text-center'>Easy Sort, Classify
+                and Search</h2>
             </div>
             
-            <div className='flex flex-col gap-7 z-40  md:w-32'>
+            <div className='flex flex-col gap-7 z-40  md:w-32 relative'>
                 <img src="../img/Sec1/Ellipse 17.png" alt="" />
-                <h2 className='font-bold w-40 text-xl'>Notes Powerful
-                and Security</h2>
+                <div className='bg-[#B4F59D] w-11 h-11 rounded-full absolute text-sm font-medium flex justify-center items-center right-0'>new</div>
+                <h2 className='font-bold w-36 text-base text-center'>Collaboration and
+                Share</h2>
             </div>
             
             <div className='flex flex-col gap-7 z-40  md:w-32'>
                 <img src="../img/Sec1/Ellipse 18.png" alt="" />
-                <h2 className='font-bold w-40 text-xl'>Notes Powerful
-                and Security</h2>
+                <h2 className='font-bold w-40 text-base text-center'>Quick Note In
+                Everywhere</h2>
             </div>
             
             <div className='flex flex-col gap-7 z-40  md:w-32'>
                 <img src="../img/Sec1/Ellipse 19.png" alt="" />
-                <h2 className='font-bold w-40 text-xl'>Notes Powerful
-                and Security</h2>
+                <h2 className='font-bold w-32 text-base text-center'>Write and Draw
+                on Ipad</h2>
             </div>
             
             {/* <div className='absolute z-0 bottom-1 '> */}
-                <img src="../img/Sec1/Ellipse 13 (Stroke).png" alt="" className='absolute -bottom-24 hidden lg:block ' />
-                <img src="../img/Sec1/Ellipse 14 (Stroke).png" alt="" className='absolute -bottom-20 hidden lg:block ' />
+                <img src="../img/Sec1/Ellipse 13 (Stroke).png" alt="" className='absolute -bottom-3 hidden lg:block ' />
+                <img src="../img/Sec1/Ellipse 14 (Stroke).png" alt="" className='absolute -bottom-1 hidden lg:block ' />
             {/* </div> */}
         </div>
         
