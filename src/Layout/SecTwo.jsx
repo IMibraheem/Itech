@@ -2,30 +2,30 @@ import React from "react";
 
 const SecTwo = () => {
   return (
-    <section className="relative z-50 xl:top-10  ">
+    <section className="relative z-50 ">
       <div className="flex items-center px-7 md:px-0 gap-10 flex-col md:flex-row">
         
         {/* col1  */}
         <div className="relative  md:w-[50%] flex flex-col ">
-          <img src="../img/Sec2/ipad 1.png" alt="" className="z-40 relative md:min-w-[100%]  lg:min-w-[90%] md:ml-10  lg:pt-32 lg:ml-20 "  />
+          <img src="../img/Sec2/2 (1).png" alt="" className="z-40 relative md:min-w-[100%]  lg:min-w-[90%] md:ml-10  lg:pt-32 lg:ml-20 "  />
           <div className="relative ">
-            <img
+            {/* <img
               src="../img/Sec2/about_s4_bubble 1.jpg"
               alt=""
               className="absolute -bottom-20 -right-10 z-0  hidden lg:block"
-            />
+            /> */}
             <img
               src="../img/Sec2/about_s4_lines 1.png"
               alt=""
-              className="absolute -bottom-60 z-0 hidden lg:block"
+              className="absolute lg: xl:-bottom-10 z-0 hidden lg:block"
             />
           </div>
         </div>
 
 
         {/* col2 */}
-        <div className="md:w-[50%] xl:pr-20 md:pl-10 flex flex-col gap-6 md:gap-3 lg:gap-5 items-start pt-10 ">
-          <button className="bg-[#6953D31F] text-[#6953D3] p-2 text-lg rounded-lg font-medium">
+        <div className="md:w-[50%]  xl:pr-20 md:pl-10 flex flex-col gap-6 md:gap-3 lg:gap-5 items-start pt-10 ">
+          <button className="bg-[#6953D31F] text-[#6953D3] p-2 text-lg 2xl:text-2xl rounded-lg font-medium 2xl">
             Notero-Easy Note App
           </button>
 

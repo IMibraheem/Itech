@@ -30,7 +30,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-5  sm:gap-20    justify-center items-center">
+        <div className="flex flex-col md:flex-row gap-5  sm:gap-7    justify-center items-center">
           <div className="bg-[#6953D3] text-white text-base  sm:text-lg   p-3 px-5   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer min-w-[360px] min-h-[62px]">
             <img src="../img/heroSec/Apple Logo.png" alt="" className="w-7" />
             {/* <div className='w-[1px] h-[30px] bg-white'></div> */}
