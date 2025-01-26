@@ -79,16 +79,16 @@ const SecSeven = () => {
               Customers
             </span>
           </h1>
-          <h4 className="text-gray-500 text-lg lg:text-xl lg:pr-24  lg:pt-4 leading-8 lg:leading-9">
+          <h4 className="text-[#44444499] text-lg lg:text-xl lg:pr-24  lg:pt-4 leading-8 lg:leading-9">
             Notero loved from thoudsands customer worldwide and get trusted from
             big companies.
           </h4>
 
-          <div className="flex flex-col md:flex-row justify-between px-5 items-center gap-5  lg:gap-9 xl:gap-16 w-full p-5 md:pt-7 lg:pt-10">
-            <div className="flex flex-col  justify-center items-center gap-3 lg:gap-5">
+          <div className="flex flex-col md:flex-row   px-5 items-center gap-5  lg:gap-9 xl:gap-16  w-full p-5 md:pt-7 lg:pt-10">
+            <div className="flex flex-col  justify-center items-center gap-3 lg:gap-5 pt-3">
               <img src="../img/Sec7/testi_s4_ic1.png" alt="img" className=" md:w-[55%] lg:w-[67%] xl:w-auto object-cover"/>
-              <h1 className="text-[#5038C6] text-3xl lg:text-4xl xl:text-5xl font-bold">2,5M+</h1>
-              <p className="text-xl  lg:text-lg xl:text-xl">
+              <h1 className="text-[#5038C6] text-3xl lg:text-4xl font-bold">2,5M+</h1>
+              <p className="text-xl  lg:text-lg  text-[#444444]">
                 Downloaded and <br />
                 Installation
               </p>
@@ -96,26 +96,26 @@ const SecSeven = () => {
 
             <div className="w-[1px] h-56 hidden md:block bg-black"></div>
 
-            <div className="flex flex-col justify-center items-center gap-3 md:gap-2 lg:gap-5">
-              <img src="../img/Sec7/testi_s4_ic2.png" alt="img" className="md:w-[37%] lg:w-[47%] xl:w-auto"/>
-              <h1 className="text-[#5038C6] text-3xl lg:text-4xl xl:text-5xl font-bold">4.8/5</h1>
-              <div className="flex flex-col justify-center items-center">
-                <img src="../img/Sec7/star.png" alt="" className="lg:w-32 " />
-                <p className="text-xl lg:text-lg xl:text-xl">Based on 1,258 reviews</p>
+            <div className="flex flex-col justify-center gap-3 md:gap-2 lg:gap-4">
+              <img src="../img/Sec7/testi_s4_ic2.png" alt="img" className="md:w-[37%] lg:w-[47%] "/>
+              <h1 className="text-[#5038C6] text-3xl lg:text-4xl  font-bold">4.8/5</h1>
+              <div className="flex flex-col justify-center items-start">
+                <img src="../img/Sec7/star.png" alt="" className="lg:w-28" />
+                <p className="text-xl lg:text-lg  text-[#444444]">Based on 1,258 reviews</p>
               </div>
             </div>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center gap-5 md:gap-2 lg:gap-5 xl:gap-7 md:pt-8">
-            <button className= "w-[90vw]  text-xl md:w-auto lg:w-[280px] xl:w-[310px] h-14 bg-[#6953D3]  md:text-base lg:text-xl xl:text-2xl font-semibold text-white rounded-full">
+            <button className= "w-[90vw]  text-xl md:w-auto lg:w-[280px] xl:w-[310px] h-14 bg-[#6953D3]  md:text-base lg:text-xl font-medium text-white rounded-full">
               See Reviews on app store
             </button>
-            <div className="flex justify-center items-center gap-5 lg:gap-2 xl:gap-5 text-base md:text-xl md:w-44 font-semibold w-[90vw]">
-              <img
-                src="../img/heroSec/Polygon 2.png"
-                alt="polygon image"
-                className=" border border-[#6953D3] sm:p-4 p-2 rounded-full bg-transparent w-14 object-cover "
-              />
-              <h4 className="text-xl md:text-base lg:text-lg">View Promotion</h4>
+          
+            <div className='flex gap-5 text-base md:text-xl xl:text-lg w-44 font-semibold text-[#333333]'>
+              <div  className=' border border-[#6953D3] sm:p-4 p-2 rounded-full bg-transparent  object-cover'>
+              <img src="../img/heroSec/Polygon 2.png" alt="polygon image"  />
+              </div>
+              <h4>View 
+              Promotion</h4>
             </div>
           </div>
         </div>

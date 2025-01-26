@@ -16,7 +16,7 @@ const SecFive = () => {
             
           </h1>
 
-          <p className='text-[#00000099] text-center  lg:text-xl pb-4'>Notero integrate with popular apps. Help you easy to connect and collaboration</p>
+          <p className='text-[#00000099] text-center  lg:text-lg pb-4'>Notero integrate with popular apps. Help you easy to connect and collaboration</p>
         </div>
 
         {/* Row twp */}

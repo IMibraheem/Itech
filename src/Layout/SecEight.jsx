@@ -16,7 +16,7 @@ const SecEight = () => {
             </span>
           </h1>
 
-          <div className='flex flex-col md:flex-row justify-between gap-10 md:gap-0 p-10 items-center w-[90%] lg:min-w-[95%] xl:min-w-[90%] mt-6 border  border-gray-700 rounded-2xl'>
+          <div className='flex flex-col md:flex-row justify-between gap-10 md:gap-0 p-10 items-center w-[90%] lg:min-w-[95%] xl:min-w-[80%] mt-6 border  border-gray-700 rounded-2xl'>
 
             <div className='flex flex-col md:flex-row justify-center items-center '>
                 <img src="../img/Sec8/GitHub.png" alt="" className='w-20'/>

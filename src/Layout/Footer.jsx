@@ -24,20 +24,20 @@ const Footer = () => {
               Download
             </span>
           </h1>
-          <p className="text-gray-800 pt-7 px-3 md:px-14 lg:px-0 text-center lg:text-start">
+          <p className="text-[#00000099] pt-7 px-3 md:px-14 lg:px-0 text-center lg:text-start">
             Discover your new favorite spaces, from Sao Paulo to Seoul. Download
             from App Store or Google Play.
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-5  sm:gap-20   justify-center items-center">
-          <div className="bg-[#6953D3] text-white text-base  sm:text-lg   p-3 px-5   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer">
+        <div className="flex flex-col md:flex-row gap-5  sm:gap-20    justify-center items-center">
+          <div className="bg-[#6953D3] text-white text-base  sm:text-lg   p-3 px-5   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer min-w-[360px] min-h-[62px]">
             <img src="../img/heroSec/Apple Logo.png" alt="" className="w-7" />
             {/* <div className='w-[1px] h-[30px] bg-white'></div> */}
             <h2 className="text-center">| Download App on app store</h2>
           </div>
 
-          <div className="bg-transparent text-black border border-black text-base  sm:text-lg   p-3 px-5   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer">
+          <div className="bg-transparent text-black border border-black text-base  sm:text-lg   p-3 px-5   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer min-w-[360px] min-h-[62px]">
             <img src="../img/footer/Google Play.png" alt="" className="w-7" />
             {/* <div className='w-[1px] h-[30px] bg-white'></div> */}
             <h2 className="text-center">| Download App on app store</h2>
@@ -52,9 +52,9 @@ const Footer = () => {
 
           {/* FooterNav */}
           <nav className='lg:flex justify-center items-center hidden  xl:ml-16'>
-                <ul className='flex justify-center items-center lg:gap-12 xl:gap-16 text-lg font-semibold '>
-                    <li className='hover:cursor-pointer text-[#6953D3] flex justify-center items-center gap-2'>Home <img src="../img/downArrow.png" alt="" /></li>
-                    <li className='hover:cursor-pointer flex justify-center items-center gap-2'>Pages <img src="../img/downArrow.png" alt="" /></li>
+                <ul className='flex justify-center items-center lg:gap-12 xl:gap-16 text-lg font-bold text-[#444444]'>
+                    <li className='hover:cursor-pointer text-[#6953D3] flex justify-center items-center gap-2'>Home</li>
+                    <li className='hover:cursor-pointer flex justify-center items-center gap-2'>Pages </li>
                     <li className='hover:cursor-pointer'>Portfolio</li>
                     <li className='hover:cursor-pointer'>Blog</li>
                     <li className='hover:cursor-pointer'>Contact</li>
@@ -63,13 +63,15 @@ const Footer = () => {
             {/* Footer Lang */}
            <div className="flex justify-center items-center gap-3">
             <img src="../img/footer/lang 1.png" alt=""   className="w-[40px] md:w-auto"/>
-            <p className="text-sm">English</p>
+            <p className="text-lg text-[#00000099]">English</p>
             <img src="../img/footer/arrowdown2.png" alt="down arrow" />
            </div>
 
         </div>
-
-        <p className="text-[#00000099] text-center ">2025 copyrights by ITech . All Rights Reserved.</p>
+<div className="flex justify-center items-center gap-2">
+<img src="../img/footer/copyright.png" alt="" />
+        <p className="text-[#00000099] text-center ">2025 copyrights by <span className="font-semibold text-[#000000a2]"> ITech </span> . All Rights Reserved.</p>
+</div>
         </div>
 
         

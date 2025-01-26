@@ -22,7 +22,9 @@ const Header = () => {
             <nav className='lg:flex justify-center items-center hidden  ml-20'>
                 <ul className='flex justify-center items-center lg:gap-12 xl:gap-14 text-lg font-semibold '>
                     <li className='hover:cursor-pointer text-[#6953D3] flex justify-center items-center gap-2'>Home <img src="../img/arrowdown2.png" alt="" className=''/></li>
-                    <li className='hover:cursor-pointer flex justify-center items-center gap-2 text-[#444444]'>Pages <img src="../img/downArrow.png" alt="" /></li>
+                    <li className='hover:cursor-pointer flex justify-center items-center gap-2 text-[#444444] relative'>Pages <img src="../img/downArrow.png" alt="" />
+                    <div className='absolute -top-3 right-0 bg-[#FD000033] text-[#BC0000] w-[23px] h-[17px] text-[8px] flex justify-center items-center'>Hot</div>
+                    </li>
                     <li className='hover:cursor-pointer text-[#444444]'>Portfolio</li>
                     <li className='hover:cursor-pointer text-[#444444]'>Blog</li>
                     <li className='hover:cursor-pointer text-[#444444]'>Contact</li>
@@ -32,9 +34,9 @@ const Header = () => {
             <i className="fa-solid fa-bars cursor-pointer text-2xl " onClick={handleNav}></i>
             </div>
            <div>
-            <div className='  items-center justify-center gap-3 hidden md:flex'>
+            <div className='  items-center justify-center gap-3 hidden md:flex '>
                 <img src="../img/profile.png" alt="" className='border border-black p-1 rounded-full'/>
-                <button className='border border-black p-2 rounded-full text-sm flex justify-center items-center'>Join ITech Hub <img src="../img/arrowright.png" alt="" /></button>
+                <button className='border border-black p-2  rounded-full text-xs flex justify-center items-center gap-2'>Join ITech Hub <img src="../img/arrowright.png" alt="" /></button>
             </div>
             </div>
         </header>

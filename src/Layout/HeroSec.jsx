@@ -14,27 +14,27 @@ const HeroSec = () => {
           In One App</h1>
           
           {/* h3 */}
-          <h3 className='text-xl text-[#33333399]'>No Coding required to make customization. the live customizer has everything you need.</h3>
+          <h3 className='text-2xl font-medium text-[#33333399]'>No Coding required to make customization. the live customizer has everything you need.</h3>
           
           {/* row 1 */}
-          <div className='flex gap-5  sm:gap-20    justify-center items-center xl:mt-10'>
+          <div className='flex gap-5  sm:gap-20  lg:gap-10   justify-center items-center xl:mt-10'>
             <div className='bg-[#6953D3] text-white text-base  sm:text-xl   p-3   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer xl:w-[241px]'>
               <img src="../img/heroSec/Apple Logo.png" alt=""  className='w-7'/>
               {/* <div className='w-[1px] h-[30px] bg-white'></div> */}
               <h2 className='text-center text-xl'>|  Download App</h2>
 
             </div>
-            <div className='flex gap-5 text-base md:text-xl xl:text-lg w-44 font-medium text-[#333333]'>
+            <div className='flex gap-5 text-base md:text-xl xl:text-lg w-44 font-medium '>
               <div  className=' border border-[#6953D3] sm:p-4 p-2 rounded-full bg-transparent  object-cover'>
               <img src="../img/heroSec/Polygon 2.png" alt="polygon image"  />
               </div>
-              <h4>View 
+              <h4 >View 
               Promotion</h4>
             </div>
           </div>
 
           {/* row 2 */}
-          <div className='flex flex-col sm:flex-row  justify-center items-center gap-5   sm:gap-28 xl:mt-10 text-[#494949] text-sm font-medium'>
+          <div className='flex flex-col sm:flex-row  justify-center items-center gap-5   sm:gap-28 lg:gap-12 xl:mt-10 text-[#333333] text-sm font-medium'>
           <div className='flex text-base justify-center items-center font-bold '>
               <img src="../img/heroSec/Ellipse 8.png" alt="polygon image" className=' object-cover p-3'  />
               <h4>Free 14 Days Trial</h4>

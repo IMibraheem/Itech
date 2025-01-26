@@ -9,7 +9,7 @@ const SecOne = () => {
         </div>
         {/* First Row */}
         <div className='relative z-30 font-semibold flex flex-col gap-10 md:gap-20 pt-16 md:pt-0 lg:pt-36 xl:pt-20 '>
-            <h1 className='text-center  text-4xl'><span className='text-[#6953d3]'> 25K+ Installation </span>and featured on</h1>
+            <h1 className='text-center  text-4xl text-[#333333]'><span className='text-[#6953d3]'> 25K+ Installation </span>and featured on</h1>
         <div className='grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 place-items-center '>
         <img src="../img/Sec1/TECHNEWS.png" alt="" className=' ' />
         <img src="../img/Sec1/hello world.png" alt="" className=' ' />
