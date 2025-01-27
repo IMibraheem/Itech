@@ -3,16 +3,16 @@ import React from "react";
 const SecSeven = () => {
   return (
     <section className="relative z-50  pt-10 md:pt-0">
-      <div className="flex items-center gap-52 md:gap-0 xl:gap-10  flex-col md:flex-row-reverse ">
+      <div className="flex items-center gap-52   md:gap-0 xl:gap-10  flex-col md:flex-row-reverse ">
         {/* col1  */}
-        <div className="relative  md:w-[50%] h-lvh md:h-auto flex flex-col ">
+        <div className="relative  md:w-[50%] h-lvh md:h-auto flex flex-col  ">
           <img
             src="../img/Sec7/contact_globe 1.png"
             alt=""
             className="z-0 relative w-[100%]  pt-32 mr-20"
           />
           <div className="absolute lg:top-20 xl:top-44 ">
-            <div className="flex flex-col gap-3 md:gap-10">
+            <div className="flex flex-col gap-3 md:gap-10 2xl:gap-20 ">
                 
               <div className="flex flex-col md:flex-row justify-center items-center md:w-[100%] lg:w-[90%] xl:w-[80%] p-5 md:p-7 shadow-2xl rounded-2xl bg-white z-40 gap-5">
                 <div>
@@ -67,7 +67,7 @@ const SecSeven = () => {
         </div>
 
         {/* col2 */}
-        <div className="md:w-[50%] px-4 md:pl-5 lg:pl-10 xl:pl-20 flex flex-col gap-3 md:gap-0 lg:gap-3 xl:gap-5 items-start pt-10 ">
+        <div className="md:w-[50%]  px-4 md:pl-5 lg:pl-10 xl:pl-20 flex flex-col gap-3 md:gap-0 lg:gap-3 xl:gap-5 items-start pt-10 ">
           <button className="bg-[#6953D31F] text-[#6953D3] p-2 text-lg rounded-lg">
             Testimonials
           </button>

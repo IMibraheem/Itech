@@ -25,8 +25,8 @@ const Itech = () => {
     <SecFive/>
     <SecSix/>
     <SecSeven/>
-    <SecEight/>
-    <Footer/>
+    {/* <SecEight/>
+    <Footer/> */}
     </>
   )
 }

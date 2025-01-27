@@ -2,14 +2,14 @@ import React from 'react'
 
 const SecOne = () => {
   return (
-    <section className=' w-full relative  bg-[#f9f4f4] -top-20 md:top-0 lg:-top-20 xl:-top-3 2xl:-top-7 2xl:h-lvh   sm:bg-transparent'>
+    <section className=' w-full relative -top-20 md:top-0 lg:-top-20 xl:-top-3 2xl:-top-10 2xl:h-lvh   sm:bg-transparent bg-[#f9f4f4]'>
         <div className='relative z-10 '>
-        <img src="../img/Sec1/sec1-bg1.png" alt="" className=' absolute w-full 2xl:h-[120vh]  md:-top-[160px] lg:top-0 xl:-top-40 z-30' />
-        <img src="../img/Sec1/sec1-bg2.png" alt="" className='absolute hidden md:block  w-[70%]  object-cover md:-top-[160px] lg:top-0 xl:-top-[170px] 2xl:-top-[190px] z-10 right-0' />
+        <img src="../img/Sec1/sec1-bg1.png" alt="" className=' absolute w-full 2xl:h-[120vh] -top-1 sm:-top-20 md:-top-[160px] lg:top-0 xl:-top-40 z-30' />
+        <img src="../img/Sec1/sec1-bg2.png" alt="" className='absolute w-[70%]  object-cover -top-1 sm:-top-20 md:-top-[170px] lg:top-0 xl:-top-[170px] 2xl:-top-[190px] z-10 right-0' />
         </div>
         {/* First Row */}
         <div className='relative z-30 font-semibold flex flex-col gap-10 md:gap-20 pt-16 md:pt-0 lg:pt-36 xl:pt-20 '>
-            <h1 className='text-center  text-4xl text-[#333333] 2xl:text-5xl'><span className='text-[#6953d3]'> 25K+ Installation </span>and featured on</h1>
+            <h1 className='text-center px-2 sm:px-0 text-[27px] sm:text-3xl text-[#333333] 2xl:text-5xl'><span className='text-[#6953d3]'> 25K+ Installation </span>and featured on</h1>
         <div className='grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 place-items-center '>
         <img src="../img/Sec1/TECHNEWS.png" alt="" className=' 2xl:w-40 object-cover' />
         <img src="../img/Sec1/hello world.png" alt="" className='2xl:w-44 object-cover ' />
