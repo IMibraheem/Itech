@@ -2,9 +2,9 @@ import React from 'react'
 
 const SecEight = () => {
   return (
-    <section className='pt-20 md:pt-[20%] lg:pt-32 xL:pt-10 pb-28'>
+    <section className='pt-20 md:pt-[20%] lg:pt-32 2xl:pt-0 pb-28'>
         <div className='flex flex-col justify-center items-center gap-5'>
-            <button className="bg-[#6953D31F] text-[#6953D3] p-3 px-5 text-lg rounded-lg">
+            <button className="bg-[#6953D31F] text-[#6953D3] p-3 px-5 text-lg font-semibold rounded-lg">
             Notero Community
           </button>
 

@@ -2,8 +2,8 @@ import React from "react";
 
 const SecSeven = () => {
   return (
-    <section className="relative z-50  pt-10 md:pt-0">
-      <div className="flex items-center gap-52   md:gap-0 xl:gap-10  flex-col md:flex-row-reverse ">
+    <section className="relative z-50  pt-10 md:pt-0 ">
+      <div className="flex items-center gap-5 md:gap-0 xl:gap-10   flex-col md:flex-row-reverse ">
         {/* col1  */}
         <div className="relative  md:w-[50%] h-lvh md:h-auto flex flex-col  ">
           <img
@@ -67,7 +67,7 @@ const SecSeven = () => {
         </div>
 
         {/* col2 */}
-        <div className="md:w-[50%]  px-4 md:pl-5 lg:pl-10 xl:pl-20 flex flex-col gap-3 md:gap-0 lg:gap-3 xl:gap-5 items-start pt-10 ">
+        <div className="md:w-[50%]  px-4 md:pl-5 lg:pl-10 xl:pl-20 flex flex-col gap-3 md:gap-0 lg:gap-3 xl:gap-5 items-start pt-10 md:pt-10 ">
           <button className="bg-[#6953D31F] text-[#6953D3] p-2 text-lg rounded-lg">
             Testimonials
           </button>
@@ -84,34 +84,34 @@ const SecSeven = () => {
             big companies.
           </h4>
 
-          <div className="flex flex-col md:flex-row   px-5 items-center gap-5  lg:gap-9 xl:gap-16  w-full p-5 md:pt-7 lg:pt-10">
-            <div className="flex flex-col  justify-center items-center gap-3 lg:gap-5 pt-3">
+          <div className="flex flex-col min-[500px]:flex-row  max-[767px]:justify-evenly   md:justify-start    px-5 items-center gap-5  lg:gap-9 xl:gap-16  w-full p-5 md:pt-7 lg:pt-10">
+            <div className="flex flex-col  justify-center items-start gap-3 lg:gap-5 pt-3 -ml-10 md:ml-0">
               <img src="../img/Sec7/testi_s4_ic1.png" alt="img" className=" md:w-[55%] lg:w-[67%] xl:w-auto object-cover"/>
               <h1 className="text-[#5038C6] text-3xl lg:text-4xl font-bold">2,5M+</h1>
-              <p className="text-xl  lg:text-lg  text-[#444444]">
+              <p className="text-xl md:text-base  lg:text-lg  text-[#444444]">
                 Downloaded and <br />
                 Installation
               </p>
             </div>
 
-            <div className="w-[1px] h-56 hidden md:block bg-black"></div>
+            <div className="w-[100%] h-[1px] sm:w-[1px]  sm:h-56 hidden sm:block bg-black"></div>
 
-            <div className="flex flex-col justify-center gap-3 md:gap-2 lg:gap-4">
+            <div className="flex flex-col justify-center items-start gap-3 md:gap-2 lg:gap-4 ">
               <img src="../img/Sec7/testi_s4_ic2.png" alt="img" className="md:w-[37%] lg:w-[47%] "/>
               <h1 className="text-[#5038C6] text-3xl lg:text-4xl  font-bold">4.8/5</h1>
               <div className="flex flex-col justify-center items-start">
                 <img src="../img/Sec7/star.png" alt="" className="lg:w-28" />
-                <p className="text-xl lg:text-lg  text-[#444444]">Based on 1,258 reviews</p>
+                <p className="text-xl md:text-base lg:text-lg  text-[#444444]">Based on 1,258 reviews</p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-5 md:gap-2 lg:gap-5 xl:gap-7 md:pt-8">
-            <button className= "w-[90vw]  text-xl md:w-auto lg:w-[280px] xl:w-[310px] h-14 bg-[#6953D3]  md:text-base lg:text-xl font-medium text-white rounded-full">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-5 md:gap-3 lg:gap-5 xl:gap-7 md:pt-5 md:px-10 lg:px-0">
+            <button className= "w-[90vw]  text-xl md:w-[120%] lg:w-[280px] xl:w-[310px] h-14 bg-[#6953D3]  md:text-base lg:text-xl font-medium text-white rounded-full">
               See Reviews on app store
             </button>
           
-            <div className='flex gap-5 text-base md:text-xl xl:text-lg w-44 font-semibold text-[#333333]'>
-              <div  className=' border border-[#6953D3] sm:p-4 p-2 rounded-full bg-transparent  object-cover'>
+            <div className='flex gap-5 lg:gap-3 text-base md:text-xl xl:text-lg w-44 font-semibold text-[#333333]'>
+              <div  className=' border border-[#6953D3] sm:p-4 p-5 rounded-full bg-transparent  object-cover'>
               <img src="../img/heroSec/Polygon 2.png" alt="polygon image"  />
               </div>
               <h4>View 

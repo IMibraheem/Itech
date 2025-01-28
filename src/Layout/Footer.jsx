@@ -7,15 +7,15 @@ const Footer = () => {
         <img
           src="../img/footer/sec1-bg1.png"
           alt=""
-          className="absolute w-full  z-20 lg:h-[100vh] xl:h-[92vh] "
+          className="absolute w-full  z-20 h-auto min-[800px]:h-[65vh] max-[1010px]:h-[65vh] lg:h-[75vh] xl:h-[82vh] 2xl:h-[72vh]  "
         />
         <img
           src="../img/footer/sec1-bg2.png"
           alt=""
-          className="absolute w-[65%] right-0"
+          className="absolute w-[75%] sm:w-[65%] right-0 2xl:h-[72vh]"
         />
       </div>
-      <div className="relative top-20 md:top-40 z-40 flex flex-col justify-center items-center gap-10 bg-[#f9f4f4]">
+      <div className="relative top-40 md:top-40 z-40 flex flex-col justify-center items-center gap-10 bg-[#f9f4f4]">
         {/* Footer row 1 */}
         <div>
           <h1 className="text-3xl sm:text-4xl md:text-4xl  xl:text-5xl  w-full font-bold leading-tight text-gray-800 text-center">
@@ -31,13 +31,13 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row gap-5  sm:gap-7    justify-center items-center">
-          <div className="bg-[#6953D3] text-white text-base  sm:text-lg   p-3 px-5   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer min-w-[360px] min-h-[62px]">
+          <div className="bg-[#6953D3] text-white text-base  sm:text-lg   p-3 px-5   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer sm:min-w-[360px] sm:min-h-[62px]">
             <img src="../img/heroSec/Apple Logo.png" alt="" className="w-7" />
             {/* <div className='w-[1px] h-[30px] bg-white'></div> */}
             <h2 className="text-center">| Download App on app store</h2>
           </div>
 
-          <div className="bg-transparent text-black border border-black text-base  sm:text-lg   p-3 px-5   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer min-w-[360px] min-h-[62px]">
+          <div className="bg-transparent text-black border border-black text-base  sm:text-lg   p-3 px-5   rounded-full flex justify-center items-center gap-1 md:gap-3 cursor-pointer sm:min-w-[360px] sm:min-h-[62px]">
             <img src="../img/footer/Google Play.png" alt="" className="w-7" />
             {/* <div className='w-[1px] h-[30px] bg-white'></div> */}
             <h2 className="text-center">| Download App on app store</h2>
@@ -68,9 +68,9 @@ const Footer = () => {
            </div>
 
         </div>
-<div className="flex justify-center items-center gap-2">
+<div className="flex justify-center items-center gap-0 sm:gap-2">
 <img src="../img/footer/copyright.png" alt="" />
-        <p className="text-[#00000099] text-center ">2025 copyrights by <span className="font-semibold text-[#000000a2]"> ITech </span> . All Rights Reserved.</p>
+        <p className="text-[#00000099] text-center text-sm sm:text-base  ">2025 copyrights by <span className="font-semibold text-[#000000a2]"> ITech </span> . All Rights Reserved.</p>
 </div>
         </div>
 
