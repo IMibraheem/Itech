@@ -23,7 +23,7 @@ const Header = () => {
                 <ul className='flex justify-center items-center lg:gap-12 xl:gap-14  text-lg  2xl:text-2xl font-semibold '>
                     <li className='hover:cursor-pointer text-[#6953D3] flex justify-center items-center gap-2'>Home <img src="../img/arrowdown2.png" alt="" className=''/></li>
                     <li className='hover:cursor-pointer flex justify-center items-center gap-2 text-[#444444] relative'>Pages <img src="../img/downArrow.png" alt="" />
-                    <div className='absolute -top-3 right-0 bg-[#FD000033] text-[#BC0000] w-[23px] h-[17px] text-[8px] 2xl:text-[10px] 2xl:w-[30px] flex justify-center items-center'>Hot</div>
+                    <div className='absolute -top-3 right-0 bg-[#FD000033] text-[#BC0000] w-[23px] h-[17px] text-[8px] 2xl:text-[10px] 2xl:w-[30px] flex justify-center items-center rounded-[4px]'>Hot</div>
                     </li>
                     <li className='hover:cursor-pointer text-[#444444]'>Portfolio</li>
                     <li className='hover:cursor-pointer text-[#444444]'>Blog</li>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSec = () => {
   return (
-    <section className='relative top-5 sm:top-0 bg-white z-10 w-full flex flex-col gap-5 lg:gap-0 lg:flex-row justify-between pt-3 md:pt-20 px-5 pl-2 sm:px-5 md:px-12 lg:px-7 2xl:px-24'>
+    <section className='relative  top-5 sm:top-0 bg-white z-10 w-full flex flex-col gap-5 lg:gap-0 lg:flex-row justify-between pt-3 md:pt-20 px-5 pl-2 sm:px-5 md:px-12 lg:px-7 2xl:px-24'>
       {/* Col 1 */}
         <div className='flex flex-col gap-5 justify-start items-start '> 
           
@@ -49,7 +49,7 @@ const HeroSec = () => {
         </div>
         {/* Col 2 */}
         <div className='relative   '>
-          <img src="../img/heroSec/header.png" className='object-contain  w-[700px] lg:w-[100vw] xl:w-[900px] 2xl:w-[1000px] 2xl:mr-10 relative top-0 lg:top-10 xl:top-0 ml-auto lg:ml-0' alt="HeroSection img" />
+          <img src="../img/heroSec/header.png" className='object-contain  w-[700px] lg:w-[100vw] xl:w-[900px] min-1050:w-[800px] max-1110:w-[800px] 2xl:w-[1000px] 2xl:mr-10 relative top-0 lg:top-10 xl:top-0 ml-auto lg:ml-0' alt="HeroSection img" />
         <img src="../img/heroSec/Ellipse 10.png" alt="Round Circle" className='absolute top-[100px]'/>
         
         <img src="../img/heroSec/Ellipse 11.png" alt="Round Circle" className='absolute hidden md:block top-0 left-40'/>

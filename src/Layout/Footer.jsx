@@ -7,12 +7,12 @@ const Footer = () => {
         <img
           src="../img/footer/sec1-bg1.png"
           alt=""
-          className="absolute w-full  z-20 h-auto min-[800px]:h-[65vh] max-[1010px]:h-[65vh] lg:h-[75vh] xl:h-[82vh] 2xl:h-[72vh]  "
+          className="absolute w-full  z-20 h-auto  min-800:h-[60vh] max-1010:h-[60vh] lg:h-[70vh] xl:h-[75vh] 2xl:h-[70vh]  "
         />
         <img
           src="../img/footer/sec1-bg2.png"
           alt=""
-          className="absolute w-[75%] sm:w-[65%] right-0 2xl:h-[72vh]"
+          className="absolute w-[75%] sm:w-[65%] right-0 2xl:h-[70vh]"
         />
       </div>
       <div className="relative top-40 md:top-40 z-40 flex flex-col justify-center items-center gap-10 bg-[#f9f4f4]">

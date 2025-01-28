@@ -12,7 +12,7 @@ const Topbar = () => {
                
                 <img src="../img/Ellipse 5.png" alt="" className='absolute top-0 hidden lg:block lg:right-0 xl:right-0  2xl:w-[12%]'/>
             </div>
-            <div className='flex gap-3 z-10 absolute top-2 px-1 sm:top-5 text-xl left-0 sm:left-[10%] md:left-[20%] lg:left-[25%] xl:left-[35%]   text-center '>
+            <div className='flex justify-center items-center gap-3 z-10 absolute top-2 px-1 sm:top-5 text-xl left-0 sm:left-[10%] md:left-[20%] lg:left-[25%] xl:left-[35%]   text-center '>
                 <button className='py-1 px-5 bg-white text-base 2xl:text-lg border-none outline-none rounded-lg hidden sm:block'>
                     special
                 </button>
