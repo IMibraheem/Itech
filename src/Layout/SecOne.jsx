@@ -2,7 +2,7 @@ import React from 'react'
 
 const SecOne = () => {
   return (
-    <section className=' w-full relative -top-20 md:top-0 lg:-top-20 xl:-top-3 2xl:-top-10 2xl:h-lvh   sm:bg-transparent bg-[#f9f4f4]'>
+    <section className=' w-full relative -top-20 md:top-0 lg:-top-20 xl:top-5 2xl:-top-10 2xl:h-lvh   sm:bg-transparent bg-[#f9f4f4]'>
         <div className='relative z-10 '>
         <img src="../img/Sec1/sec1-bg1.png" alt="" className=' absolute w-full 2xl:h-[120vh] -top-1 sm:-top-20 md:-top-[160px] lg:top-0 xl:-top-40 z-30' />
         <img src="../img/Sec1/sec1-bg2.png" alt="" className='absolute w-[70%]  object-cover -top-1 sm:-top-20 md:-top-[170px] lg:top-0 xl:-top-[170px] 2xl:-top-[190px] z-10 right-0' />
