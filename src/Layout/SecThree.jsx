@@ -35,7 +35,7 @@ const SecThree = () => {
       <div className='w-full bg-[#e9e5f8] p-5 rounded-xl flex flex-col gap-2 2xl:gap-5 mt-2'>
         <div className='flex justify-between w-full'>
             <h3 className='text-xl md:text-lg lg:text-xl font-semibold text-[#4B2FD2] '>Create And Save Your Notes With Multi-Media</h3>
-            <img src="../img/Sec3/arrowup2.png" alt="" className='object-contain'/>
+            <img src="../img/Sec3/arrowup.svg" alt="" className='object-contain'/>
         </div>
         
         <h4 className='text-gray-500 text-lg leading-10 md:leading-7 xl:leading-10 '>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</h4>
@@ -44,7 +44,7 @@ const SecThree = () => {
       <div className='w-full px-5 rounded-xl flex flex-col gap-5'>
         <div className='flex justify-between w-full text-[#444444]'>
             <h3 className='text-xl md:text-lg lg:text-xl font-semibold  '>Web Clipper Extension </h3>
-            <img src="../img/Sec3/arrowdown2.png" alt="" className='object-contain'/>
+            <img src="../img/Sec3/arrowdown.svg" alt="" className='object-contain'/>
         </div>
     
       </div>
@@ -52,7 +52,7 @@ const SecThree = () => {
       <div className='w-full  px-5 rounded-xl flex flex-col gap-5'>
         <div className='flex justify-between w-full text-[#444444]'>
             <h3 className='text-xl md:text-lg lg:text-xl font-semibold  '>Protect Your Note With Lock</h3>
-            <img src="../img/Sec3/arrowdown2.png" alt="" className='object-contain'/>
+            <img src="../img/Sec3/arrowdown.svg" alt="" className='object-contain'/>
             
         </div>
     

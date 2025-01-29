@@ -2,11 +2,11 @@ import React from 'react'
 
 const SecSix = () => {
   return (
-    <section className='bg-[#f9f4f4]  relative pt-10'>
+    <section className='bg-[#f9f4f4]  relative pt-10 lg:top-10 xl:-top-10 md:-top-10 min-1636:top-10'>
         <div className='flex justify-center items-center h-full'>
             <div>
 
-            <img src="../img/Sec6/sec6-hande.png" alt="" className='w-full z-40 relative'/>
+            <img src="../img/Sec6/sec6-hande.png" alt="" className='w-full z-40 relative '/>
             </div>
             <img src="../img/Sec6/5(1).png" alt="" className='absolute hidden lg:block lg:left-0 xl:left-0 w-[13%] 2xl:w-[10%]  top-10'/>
             <img src="../img/Sec6/4(1).png" alt="" className=' absolute hidden sm:block md:left-0 lg:left-[17%] xl:left-[20%] w-[13%] 2xl:w-[10%]'/>

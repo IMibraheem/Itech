@@ -2,7 +2,7 @@ import React from "react";
 
 const SecTwo = () => {
   return (
-    <section className="relative z-50 lg:-top-10 xl:top-0 ">
+    <section className="relative z-50 lg:-top-10  xl:top-10 min-1536:top-10 min-1736:top-0 min-1836:-top-10 ">
       <div className="flex items-center px-7 md:px-0 sm:gap-0 md:gap-10 flex-col md:flex-row ">
         
         {/* col1  */}
